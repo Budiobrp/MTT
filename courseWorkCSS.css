@@ -1,0 +1,273 @@
+html{
+    scroll-behavior: smooth;
+}
+#header{
+    display: flex;
+    margin: -8px;
+    background: #1c1c1c;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 0.25em;
+    box-sizing: border-box;
+    min-height: 50px;
+    font-size: .875rem;
+    font-family: 'Roboto',sans-serif;
+    text-decoration: none;
+}
+#header a{
+    color:#8f8c8c;
+    text-decoration: none;
+    padding: 15px 30px 30px 5px;
+}
+#header a:hover{
+    color: #d3d3d2;
+}
+.header_secrion{
+    display: flex;
+    align-items: center;
+}
+.header_button{
+    padding: 15px 20px;
+    font-size: 15px;
+}
+#header_logo{
+    font-weight: bold;
+}
+body{
+    background-color: #111111;
+}
+#body_1{
+    color: #fff;
+    font-size: .875rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 600px;
+    padding-bottom: 50px;
+    margin-top: 8px;
+    margin-left: -8px;
+    background-image: url(b1.jpg);
+}
+#body_p1{
+    background-color: #111111;
+    margin: 10px;
+    opacity: 90%;
+    border-radius: 40px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 50px; 
+}
+#span_1{
+    color:#8f8c8c;
+}
+#li_1{
+    font-size: 25px;
+}
+#body_3{
+    color: #fff;
+    font-size: .875rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-right: 950px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 200px;
+    background-image: url(b2.jpg);
+    border-radius: 40px;
+}
+#span_2{
+    color: #aaabaf;
+    margin-left: 600px;
+}
+#fAQ{
+    background-color: #111111;
+    margin: 10px;
+    border-radius: 40px;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-right: 1200px;
+    padding-bottom: 50px;
+}
+.question{
+    color:#d6d1d1;
+    font-size: 30px;
+    border-radius: 40px;
+}
+.answer{
+    font-size: 20px;
+    border-radius: 40px;
+    margin-left: 70px;
+}
+.block{
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1100px;
+    height: auto;
+    margin-top: 25px;
+    box-sizing: border-box;
+    border-radius: 40px;
+    background: linear-gradient(230deg,#f06407,#9810aa);
+    box-shadow: -5px 5px 10px #9810aa,
+    5px -5px 10px #f06407;
+}
+
+
+
+#body_4{
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    padding: 150px 950px 100px 150px;
+    margin: 150px 100px 20px 100px;
+    background-image: url(foto_4_body.jpeg);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.question_b4{
+    color: #ff00f2;
+    text-align: center;
+    position: absolute;
+    margin-bottom: 750px;
+    margin-left: 485px;
+}
+.slides{
+    position: relative;
+}
+.slides .slider{
+    display: none;
+}
+.slides .slider.active{
+    display: block;
+}
+.slides .slider img{
+    max-width: 600px;
+    margin-left: 550px;
+}
+.prevNext{
+    position: absolute;
+    user-select: none;
+    margin-left: 650px;
+    margin-top: 700px;
+}
+.prevNext span{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+    font-size: 2em;
+    color: white;
+}
+.prevNext span:nth-child(2){
+    margin-right: 20px;
+}
+
+#footer_1{
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+footer #nav_id{
+    padding-top: 190px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 100px;
+}
+footer .info{
+    padding-top: 150px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+footer .info div{
+    padding-top: 5px;
+}
+footer nav .nav_d a{
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+    text-decoration: none;
+    font-size: 35px;
+    transition: 0.3s;
+}
+footer nav .nav_d a:hover{
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+footer nav .nav_d{
+    margin-top: 10px;
+}
+footer .info .name_info{
+    font-family: 'Roboto',sans-serif;
+    color: grey;
+    font-size: 35px;
+}
+footer .info .info_info{
+    font-family: 'Roboto',sans-serif;
+    color: rgb(80, 75, 75);
+    font-size: 25px;
+}
+footer{
+    width: 100%;
+    height: auto;
+    padding-bottom: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+}
+footer #map span{
+    font-size: 75px;
+    font-family: 'Roboto',sans-serif;
+    color: rgb(80, 75, 75);
+    
+}
+#arrow_map{
+    margin-left: 20px;
+    font-size: 40px;
+    color: rgb(80, 75, 75);
+}
+.icon{
+    margin-top: 140px;
+    display: flex;
+    margin-left: 65%;
+}
+.icon a{
+    font-size: 30px;
+    text-shadow: 0 0 15px;
+    animation: animate 3s infinite linear;
+    margin-left: 10px;
+}
+.icon a:hover{
+    border-bottom: 1px solid rgb(183, 0, 255);
+
+}
+@keyframes animate{
+    0%,
+    100%{
+        color: #9810aa;
+    }
+    25%{
+        color: #f06407;
+    }
+    50%{
+        color: #9810aa;
+    }
+    75%{
+        color: #f06407;
+    }
+}
+.icon a ion-icon{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+}
